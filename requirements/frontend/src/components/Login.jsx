@@ -6,10 +6,10 @@ const Login = ({close}) =>{
 
 
     return (
-    <div className="w-[20%] h-[20em] flex flex-col bg-stone-50 relative rounded-2xl">
+    <div className=" h-[20em] w-[30%] min-w-64 max-w-80  flex flex-col bg-stone-50 relative rounded-2xl">
         
         <div className="flex w-full  justify-around pl-5 pt-5  items-center ">
-            <h1  className="w-[70%]  text-1xl font-bold  "> MILOKI RESOURCES . </h1>
+            <h1  className="w-[70%]  text-1xl font-bold  "> MILOKI RESOURCES.</h1>
             <span  className="flex items-center justify-center  w-4  rounded-md text-xs cursor-pointer  bg-slate-200  text-gray-400 " onClick={close} > x </span>
         </div>
         <div className="w-[100%] mt-10 flex flex-col justify-center items-center">
